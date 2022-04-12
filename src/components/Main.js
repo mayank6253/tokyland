@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import Bottom from "./Bottom";
 import image1 from "./images/image1.png";
 import image2 from "./images/image2.png";
 import image3 from "./images/image3.png";
@@ -51,7 +52,7 @@ export default function Main() {
             <div className="col-12 col-lg-6 offset-lg-0">
               <Fade bottom>
                 <div className="content-container">
-                  <span className="gradient-text ">
+                  <span className="gradient-text">
                     Decentralized Trading Platform
                   </span>
                   <h4 className="blockchain text-light my-3">
@@ -139,6 +140,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <Bottom />
     </div>
   );
 }

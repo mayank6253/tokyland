@@ -26,7 +26,7 @@ export default function Services() {
                   margin: " 70px auto",
                 }}
               >
-                <div className=" col-lg-4 col-md-6 grid-items">
+                <div className="col-lg-4 col-md-6 grid-items">
                   <div
                     className="card position-relative"
                     style={{ width: "18rem" }}
@@ -134,7 +134,7 @@ export default function Services() {
                     className="arrow-img"
                   />
                 </div>
-                <div className=" col-lg-4 col-md-6 grid-items">
+                <div className="col-lg-4 col-md-6 grid-items">
                   <div
                     className="card position-relative"
                     style={{ width: "18rem" }}
