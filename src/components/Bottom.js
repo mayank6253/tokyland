@@ -1,10 +1,15 @@
 import React from "react";
+import Ico from "./Ico";
 import ico1 from "./images/ico1.png";
 import ico2 from "./images/ico2.png";
 import ico3 from "./images/ico3.png";
 import ico4 from "./images/ico4.png";
 import ico5 from "./images/ico5.png";
 import ico6 from "./images/ico6.png";
+import Platform from "./Platform";
+import Smartcontract from "./Smartcontract";
+import TokenPrice from "./TokenPrice";
+import Whitepaper from "./Whitepaper";
 
 export default function Bottom() {
   //   const icoInfo = [
@@ -116,7 +121,7 @@ export default function Bottom() {
                 </div>
                 <div className="check">
                   <div className="check-icon">
-                      <div className="value">8.9</div>
+                    <div className="value">8.9</div>
                   </div>
                 </div>
               </div>
@@ -178,7 +183,7 @@ export default function Bottom() {
                 </div>
                 <div className="check">
                   <div className="check-icon">
-                      <div className="value">7.4</div>
+                    <div className="value">7.4</div>
                   </div>
                 </div>
               </div>
@@ -206,6 +211,12 @@ export default function Bottom() {
           </div>
         </div>
       </section>
+
+      <Ico />
+      <Smartcontract />
+      <Platform />
+      <TokenPrice />
+      <Whitepaper />
     </div>
   );
 }

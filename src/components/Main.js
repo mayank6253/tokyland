@@ -98,7 +98,7 @@ export default function Main() {
 
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-12 col-lg-5 col-md-12">
             <div className="decentralized-content">
               <span className="gradient-text blue fw-bolder">
                 Decentralized Trading Platform
@@ -133,7 +133,7 @@ export default function Main() {
               </button>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-12 col-lg-5 col-md-12">
             <div className="image">
               <img src={image3} alt="" className="vert-move" />
             </div>

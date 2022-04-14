@@ -26,25 +26,25 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav mx-auto">
                 <a
-                  className="nav-link active text-white mx-4"
+                  className="nav-link active mx-4"
                   aria-current="page"
                   href= "/"
                 >
                   Home
                 </a>
-                <a className="nav-link text-white mx-4" href="/about-us">
+                <a className="nav-link mx-4" href="/about-us">
                   About Us
                 </a>
-                <a className="nav-link text-white mx-4" href="#services">
+                <a className="nav-link mx-4" href="#services">
                   Services
                 </a>
-                <a className="nav-link  text-white mx-4" href="#faq">
+                <a className="nav-link mx-4" href="#faq">
                   FAQ
                 </a>
-                <a className="nav-link  text-white mx-4" href="#roadmap">
+                <a className="nav-link mx-4" href="#roadmap">
                   Roadmap
                 </a>
-                <a className="nav-link  text-white mx-4" href="#contact">
+                <a className="nav-link mx-4" href="#contact">
                   Contact
                 </a>
               </div>
