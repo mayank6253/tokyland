@@ -1,5 +1,6 @@
 import React from "react";
 import Ico from "./Ico";
+import IcoDistribution from "./IcoDistribution";
 import ico1 from "./images/ico1.png";
 import ico2 from "./images/ico2.png";
 import ico3 from "./images/ico3.png";
@@ -10,6 +11,9 @@ import Platform from "./Platform";
 import Smartcontract from "./Smartcontract";
 import TokenPrice from "./TokenPrice";
 import Whitepaper from "./Whitepaper";
+import Faq from "./pages/Faq";
+import Roadmap from "./pages/Roadmap";
+import TokenSale from "./TokenSale";
 
 export default function Bottom() {
   //   const icoInfo = [
@@ -217,6 +221,14 @@ export default function Bottom() {
       <Platform />
       <TokenPrice />
       <Whitepaper />
+      <IcoDistribution />
+      <div id="roadmap">
+        <Roadmap />
+      </div>
+      <TokenSale />
+      <div id="faq">
+        <Faq />
+      </div>
     </div>
   );
 }

@@ -21,7 +21,11 @@ export default function Whitepaper() {
                   ullam blanditiis, odio dolorum. Officia quisquam eaque
                   suscipit facere ducimus, sit quaerat. Numquam, corrupti?
                 </p>
-                <button className="whitepaper-button">GET WHITEPAPER</button>
+                <div className="whitepaper-link">
+                  <a href="/" className="whitepaper-button">
+                    GET WHITEPAPER
+                  </a>
+                </div>
               </div>
             </div>
           </div>
