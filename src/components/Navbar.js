@@ -38,9 +38,12 @@ export default function Navbar() {
                 <a className="nav-link mx-4" href="#services">
                   Services
                 </a>
-                <a className="nav-link mx-4" href="#faq">
-                  FAQ
+                <a className="nav-link mx-4" href="#whitepaper">
+                  Whitepaper
                 </a>
+                {/* <a className="nav-link mx-4" href="#faq">
+                  FAQ
+                </a> */}
                 <a className="nav-link mx-4" href="#roadmap">
                   Roadmap
                 </a>

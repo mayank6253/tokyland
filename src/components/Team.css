@@ -1,0 +1,8 @@
+.team {
+  display: flex;
+  align-items: baseline;
+}
+span.text-info {
+  font-size: 27px;
+  font-weight: 500;
+}

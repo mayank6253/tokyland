@@ -49,6 +49,14 @@ img.background {
   width: 100% !important;
   margin-left: -60px;
 }
+span.text-light {
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 0 0px 11px #21d397;
+}
+.heading-container {
+  margin-top: 100px;
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -64,8 +72,12 @@ button.buttons {
   padding: 12px;
   background-image: linear-gradient(90deg, #21d397 0, #7450fe 50%, #21d397);
   background-size: 200% auto;
+  transition-duration: all 1s;
 }
-
+button.buttons:hover {
+  background-image: linear-gradient(90deg, #7450fe 0, #21d397 50%, #7450fe);
+  transition-duration: all 1s;
+}
 button.read-more {
   width: 170px;
   padding: 12px;
@@ -73,6 +85,11 @@ button.read-more {
   font-weight: 700;
   background-image: linear-gradient(90deg, #21d397 0, #7450fe 50%, #21d397);
   background-size: 200% auto;
+  transition-duration: all 1s;
+}
+button.read-more:hover {
+  background-image: linear-gradient(90deg, #7450fe 0, #21d397 50%, #7450fe);
+  transition-duration: all 1s;
 }
 img {
   max-width: 110%;
@@ -387,6 +404,11 @@ a.whitepaper-button {
   font-size: 14px;
   width: 35%;
   text-decoration: none;
+  transition-duration: all 1s;
+}
+a.whitepaper-button:hover {
+  background-image: linear-gradient(90deg, #f17674, #846ff4 0, 51%, #f17674);
+  transition-duration: all 1s;
 }
 .whitepaper-link {
   margin-top: 70px;
@@ -526,6 +548,17 @@ h2#headingFour {
   border: 0px solid rgba(0, 0, 0, 0.125) !important;
 }
 
+/* BRIDGE */
+li.il.text-light {
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+img.connect-wallet-image3 {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
 @media screen and (max-width: 912px) {
   .navbar {
     position: relative;

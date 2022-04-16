@@ -7,6 +7,7 @@ import Faq from "./components/pages/Faq";
 import Home from "./components/pages/Home";
 import Roadmap from "./components/pages/Roadmap";
 import Services from "./components/pages/Services";
+import Whitepaper from "./components/Whitepaper";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/' exact component={Home}></Route>
             <Route path='/about-us' component={About}></Route>
             <Route path='/services' component={Services}></Route>
+            <Route path='/whitepaper' component={Whitepaper}></Route>
             <Route path='/roadmap' component={Roadmap}></Route>
             <Route path='/faq' component={Faq}></Route>
             <Route path='/contact' component={Contact}></Route>

@@ -1,19 +1,23 @@
 import React from "react";
-import Ico from "./Ico";
-import IcoDistribution from "./IcoDistribution";
-import ico1 from "./images/ico1.png";
-import ico2 from "./images/ico2.png";
-import ico3 from "./images/ico3.png";
-import ico4 from "./images/ico4.png";
-import ico5 from "./images/ico5.png";
-import ico6 from "./images/ico6.png";
-import Platform from "./Platform";
-import Smartcontract from "./Smartcontract";
-import TokenPrice from "./TokenPrice";
+// import Ico from "./Ico";
+// import IcoDistribution from "./IcoDistribution";
+// import ico1 from "./images/ico1.png";
+// import ico2 from "./images/ico2.png";
+// import ico3 from "./images/ico3.png";
+// import ico4 from "./images/ico4.png";
+// import ico5 from "./images/ico5.png";
+// import ico6 from "./images/ico6.png";
+// import Platform from "./Platform";
+// import Smartcontract from "./Smartcontract";
+// import TokenPrice from "./TokenPrice";
 import Whitepaper from "./Whitepaper";
-import Faq from "./pages/Faq";
+// import Faq from "./pages/Faq";
 import Roadmap from "./pages/Roadmap";
-import TokenSale from "./TokenSale";
+// import TokenSale from "./TokenSale";
+import OurTeam from "./OurTeam";
+import Tokenomics from "./Tokenomics";
+import BridgetoCronos from "./BridgetoCronos";
+import Update from "./Update";
 
 export default function Bottom() {
   //   const icoInfo = [
@@ -73,7 +77,7 @@ export default function Bottom() {
   //   };
   return (
     <div>
-      <section>
+      {/* <section>
         <div className="conatiner">
           <div className="ico text-center" style={{ marginTop: "100px" }}>
             <span className="gradient-text">ICO Rating</span>
@@ -214,21 +218,27 @@ export default function Bottom() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <Ico />
-      <Smartcontract />
-      <Platform />
-      <TokenPrice />
-      <Whitepaper />
-      <IcoDistribution />
+      {/* <Ico /> */}
+      {/* <Smartcontract /> */}
+      {/* <Platform /> */}
+      {/* <TokenPrice /> */}
+      <div id="whitepaper">
+        <Whitepaper />
+      </div>
+      <Tokenomics />
+      <BridgetoCronos />
+      {/* <IcoDistribution /> */}
       <div id="roadmap">
         <Roadmap />
       </div>
-      <TokenSale />
-      <div id="faq">
+      {/* <TokenSale /> */}
+      {/* <div id="faq">
         <Faq />
-      </div>
+      </div> */}
+      <OurTeam />
+      <Update />
     </div>
   );
 }
