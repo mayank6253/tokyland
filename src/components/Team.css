@@ -1,6 +1,7 @@
 .team {
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 span.text-info {
   font-size: 27px;

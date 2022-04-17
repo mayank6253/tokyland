@@ -15,7 +15,7 @@ import Whitepaper from "./Whitepaper";
 import Roadmap from "./pages/Roadmap";
 // import TokenSale from "./TokenSale";
 import OurTeam from "./OurTeam";
-import Tokenomics from "./Tokenomics";
+// import Tokenomics from "./Tokenomics";
 import BridgetoCronos from "./BridgetoCronos";
 import Update from "./Update";
 
@@ -227,7 +227,7 @@ export default function Bottom() {
       <div id="whitepaper">
         <Whitepaper />
       </div>
-      <Tokenomics />
+     {/* <Tokenomics />  */}
       <BridgetoCronos />
       {/* <IcoDistribution /> */}
       <div id="roadmap">

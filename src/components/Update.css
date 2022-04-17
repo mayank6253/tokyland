@@ -1,5 +1,69 @@
-input#\#exampleEmail {
+.update-wrapper {
+  border: 1px solid;
+  padding: 50px 0px 0px;
+  border-radius: 20px;
+  background: url("https://ico1.netlify.app/static/media/subscribe-bg.e63ac51e.jpg");
+  max-width: 978px;
+  margin: auto;
+}
+
+input.email {
   border-radius: 25px !important;
-  padding: 14px 20px !important;
-  color: white !important;
+  padding: 14px 30px !important;
+  background: white !important;
+  color: black !important;
+  width: 100% !important;
+}
+svg.home {
+  position: absolute;
+  top: 12%;
+  left: 3%;
+  background: transparent;
+}
+button.subscribe {
+  width: 290px;
+  padding: 16px;
+  font-size: 12px !important;
+  font-weight: 700;
+  background-image: linear-gradient(90deg, #21d397 0, #7450fe 50%, #21d397);
+  background-size: 200% auto;
+  transition-duration: all 1s;
+}
+button.subscribe:hover {
+  background-image: linear-gradient(90deg, #7450fe 0, #21d397 50%, #7450fe);
+  transition-duration: all 1s;
+}
+.form.text-center {
+  border: 1px solid;
+  width: 37%;
+  margin: 50px auto;
+  padding: 20px 20px 20px;
+  border-radius: 25px;
+  background: #fff;
+}
+p.text-light.fw-light.m-auto.bg-transparent {
+  width: 60%;
+}
+@media screen and (max-width: 912px) {
+  .form.text-center {
+    border: 1px solid;
+    width: 51%;
+    margin: 50px auto;
+    padding: 20px 20px 20px;
+    border-radius: 25px;
+    background: #fff;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form.text-center {
+    border: 1px solid;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px 20px 20px;
+    border-radius: 25px;
+    background: #fff;
+  }
+  p.text-light.fw-light.m-auto.bg-transparent {
+    width: 100%;
+  }
 }
