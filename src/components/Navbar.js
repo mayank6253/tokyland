@@ -32,11 +32,14 @@ export default function Navbar() {
                 >
                   Home
                 </a>
-                <a className="nav-link mx-4" href="/about-us">
+                <a className="nav-link mx-4" href="#about-us">
                   About Us
                 </a>
-                <a className="nav-link mx-4" href="#services">
+                {/* <a className="nav-link mx-4" href="#services">
                   Services
+                </a> */}
+                <a className="nav-link mx-4" href="#tokenomics">
+                  Tokenomics
                 </a>
                 <a className="nav-link mx-4" href="#whitepaper">
                   Whitepaper
@@ -46,9 +49,6 @@ export default function Navbar() {
                 </a> */}
                 <a className="nav-link mx-4" href="#roadmap">
                   Roadmap
-                </a>
-                <a className="nav-link mx-4" href="#contact">
-                  Contact
                 </a>
               </div>
             </div>

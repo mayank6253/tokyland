@@ -15,9 +15,10 @@ import Whitepaper from "./Whitepaper";
 import Roadmap from "./pages/Roadmap";
 // import TokenSale from "./TokenSale";
 import OurTeam from "./OurTeam";
-// import Tokenomics from "./Tokenomics";
 import BridgetoCronos from "./BridgetoCronos";
 import Update from "./Update";
+import Footer from "./Footer";
+// import Contact from "./pages/Contact";
 
 export default function Bottom() {
   //   const icoInfo = [
@@ -227,7 +228,7 @@ export default function Bottom() {
       <div id="whitepaper">
         <Whitepaper />
       </div>
-     {/* <Tokenomics />  */}
+
       <BridgetoCronos />
       {/* <IcoDistribution /> */}
       <div id="roadmap">
@@ -239,6 +240,10 @@ export default function Bottom() {
       </div> */}
       <OurTeam />
       <Update />
+      {/* <div id="contact">
+        <Contact/>
+      </div> */}
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,112 @@
+.tokenomics-circle {
+  border: 6px solid #9a03fb;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 391px;
+  height: 391px;
+  margin-left: 30px;
+}
+.content {
+  background: transparent;
+}
+.circle-block.marketing {
+  height: 60px;
+  background-color: #04e3eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+span {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  background: transparent;
+}
+.circle-block.team {
+  height: 60px;
+  background-color: #4f3efe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.circle-block.liquidity {
+  height: 60px;
+  background-color: #da17fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.circle-block.buy-back {
+  height: 60px;
+  background-color: #07cff0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.circle-block.airdrop {
+  height: 200px;
+  background-color: #e681ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.tokenomics-total {
+  text-align: center;
+  margin-top: 50px;
+}
+.title {
+  font-size: 28px;
+  padding-bottom: 7px;
+  color: #2c3e5b;
+}
+.value {
+  font-size: 37px;
+  padding-bottom: 5px;
+  color: #2c3e5b;
+}
+.buy.text-center {
+  margin-right: 70px;
+  margin-bottom: 25px;
+}
+.sell.text-center {
+  margin-right: 70px;
+  margin-bottom: 25px;
+}
+.content-burn {
+  background: transparent;
+}
+@media screen and (max-width: 540px) {
+  .buy.text-center {
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  .sell.text-center {
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  .tokenomics-circle {
+    border: 6px solid #9a03fb;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 370px;
+    height: 350px;
+    margin-left: auto;
+  }
+  .content-burn {
+    background: transparent;
+    margin-top: -80px;
+  }
+}

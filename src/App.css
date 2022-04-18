@@ -1,9 +1,12 @@
 .golbalContainer {
   max-width: 1440px;
   margin: auto;
+  background: transparent;
 }
 * {
   background: #030239;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 .row {
   justify-content: center;
@@ -559,6 +562,21 @@ img.connect-wallet-image3 {
   display: block;
   margin: auto;
 }
+
+/* FOOTER */
+
+.icons {
+  color: #fff;
+}
+a.link {
+  text-decoration: none;
+  color: #8c90ab;
+  cursor: auto;
+}
+a.link:hover {
+  color: #fff;
+}
+
 @media screen and (max-width: 912px) {
   .navbar {
     position: relative;

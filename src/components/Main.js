@@ -3,7 +3,8 @@ import { Fade } from "react-reveal";
 import Bottom from "./Bottom";
 import image2 from "./images/image2.png";
 // import image3 from "./images/image3.png";
-import Services from "./pages/Services";
+import Tokenomics from "./pages/Tokenomics";
+// import Services from "./pages/Services";
 
 export default function Main() {
   return (
@@ -81,8 +82,11 @@ export default function Main() {
         </div>
       </section>
 
-      <div id="services">
+      {/* <div id="services">
         <Services />
+      </div> */}
+      <div id="tokenomics">
+      <Tokenomics /> 
       </div>
 
       {/* <div className="container">

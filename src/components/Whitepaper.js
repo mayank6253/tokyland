@@ -5,7 +5,10 @@ export default function Whitepaper() {
   return (
     <div>
       <div id="whitepaper">
-        <div className="container">
+        <div className="container" style={{marginTop:"100px"}}>
+        <div className="whitepaper-heading text-center">
+          <span className="gradient-text">Whitepaper</span>
+        </div>
           <div className="row">
             <div className="col-12 col-lg-5 col-md-12">
               <div className="whitepaper-image" style={{ marginTop: "100px" }}>
